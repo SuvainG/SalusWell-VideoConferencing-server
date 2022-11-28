@@ -4,7 +4,7 @@ const AccessToken = require("twilio").jwt.AccessToken;
 const VideoGrant = AccessToken.VideoGrant;
 const express = require("express");
 const app = express();
-const port = 5000;
+const port = 80;
 const cors = require("cors");
 
 
